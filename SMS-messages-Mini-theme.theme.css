@@ -1,0 +1,115 @@
+//META{"name":"Message Bubbles","description":"Have you ever wanted you and your friends messages to have the style of an SMS chat?","author":"Shwubblz","version":"1.0"}*//{}
+:root {
+	--message-color: #292d30;
+	--message-alt: #1c1e21;
+	--border-radius: 4px;    
+}
+
+.containerCozy-jafyvG {
+	padding: 12px 8px 8px 8px;
+	margin: 16px 26px 16px 80px;
+	background: var(--message-color);
+	border-radius: 0 var(--border-radius) var(--border-radius) var(--border-radius);
+	border-bottom: none !important;
+	overflow: visible !important;
+}
+
+.containerCozy-jafyvG .divider-32i8lo {
+	display: none;
+}
+
+.containerCozy-B4noqO > * {
+	margin: 0;
+}
+
+.containerCozy-B4noqO.container-1e22Ot:not(:empty) {
+	margin: 0 0 4px 0 !important;
+}
+
+.containerCozy-B4noqO.container-1e22Ot:not(:empty) div[style*="width: 400px; height: 80px"] {
+	padding: 8px 0 0 0 !important;
+}
+
+.messageCozy-2JPAPA:not(:first-child) .headerCozy-2N9HOL {
+	display: none;
+}
+
+.headerCozy-2N9HOL:first-child {
+	position: relative;
+}
+
+.headerCozy-2N9HOL:first-child:before {
+	content: " ";
+	position: absolute;
+	width: 0;
+	height: 0;
+	top: -12px;
+	left: -14px;
+	margin: -6px 0 0 0;
+	border: 6px solid transparent;
+	border-color: transparent;
+	border-right-color: var(--message-color);
+	pointer-events: none;
+	transform: rotate(135deg);
+}
+
+.headerCozy-2N9HOL {
+	position: relative;
+	height: auto;
+	margin: 0;
+}
+
+.avatar-17mtNa {
+	position: absolute;
+	top: -12px;
+	left: -88px;
+}
+
+.headerCozyMeta-rdohGq {
+	display: block;
+	width: 100%;
+	margin: 0;
+	padding: 0 0 4px 0;
+}
+
+.message-1PNnaP {
+	margin: 0;
+}
+
+.containerCozy-jafyvG .containerCozy-336-Cz {
+	padding: 1px 0;
+}
+
+.markup-2BOw-j {
+	color: #ddd;
+}
+
+.markup-2BOw-j strong {
+	line-height: 12px !important;
+}
+
+.contentCozy-3XX413 {
+	margin: 0;
+	padding: 0;
+}
+
+.reactions {
+	margin: 4px 0 0 -2px;
+	padding: 0;
+}
+
+.isLocalBot-38G0P0 {
+	padding: 0 !important;
+	background: transparent !important;
+	box-shadow: none !important;
+}
+
+.isLocalBot-38G0P0 .messageCozy-2JPAPA {
+	padding: 12px 8px;
+	background: var(--message-color) !important;
+	border-radius: 0 var(--border-radius) var(--border-radius) var(--border-radius);
+}
+
+.localBotMessage-1cGMdw {
+	margin: 8px 0 0 0;
+}
